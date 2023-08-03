@@ -1,0 +1,27 @@
+p{
+    color: aqua;
+}
+.importante{
+    font-weight: bold;
+    padding: 2rem;
+}
+.grande{
+    font-size: large;
+}
+#intro{
+    background-color: beige;
+
+}
+#Header{
+    background-color: chartreuse;
+}
+#Rock{
+    background-color: deeppink;
+}
+div{
+    border-style: solid;
+}
+.Horizontal{
+    display: inline-block;
+    vertical-align: top;
+}

@@ -1,0 +1,55 @@
+.figura{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 10px;
+}
+.contenedor{
+    height: 25%;
+    width: 50%;
+
+    border-style: solid;
+    display: flex;
+}
+
+.arriba{
+    background-color: greenyellow;
+    flex-direction: row;
+    /* eje principal*/
+    justify-content: center;
+    /* eje secundario*/
+    align-items: center;
+}
+.abajo{
+    background-color: blueviolet;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.abajito{
+    background-color: coral;
+    flex-direction: row-reverse;
+    justify-content: stretch;
+    align-items: center;
+
+}
+.abajisimo{
+    background-color: hotpink;
+
+}
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.horizontal{
+    display: inline-block;
+}
+.vertical{
+    display: block;
+}

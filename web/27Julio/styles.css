@@ -1,0 +1,10 @@
+.especial{
+    background-color: red;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    
+}
+.especial:hover{
+    background-color: yellow;
+}
