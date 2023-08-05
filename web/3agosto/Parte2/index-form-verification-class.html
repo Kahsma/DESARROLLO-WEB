@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <h1>Formularios</h1>
+    <!--cambiar entre get y post-->
+    <form id="formUser" method="post" action="respuesta.html">
+        <label for="txtName">Usuario</label>
+        <input type="txt" id="txtName" name="name" required><br>
+
+        <label for="txtCorreo">Correo</label>
+        <input type="txt" id="txtCorreo" name="correo"><br>
+
+        <label for="txtPassword">Password</label>
+        <input type="password" id="txtPassword" name="password" minlength="8"><br>
+
+        <label for="txtPasswordrepeat">Repetir password</label>
+        <input type="password" id="txtPasswordRepeat" name="repeatPassword" minlength="8"><br>
+
+        <button type="submit">Enviar formularios</button>
+    </form>
+</body>
+
+</html>

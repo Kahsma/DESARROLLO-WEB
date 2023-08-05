@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Dominoes</h1>
+
+    </header>
+    <form action="">
+        <fieldset>
+            <legend> pedido</legend>
+            <label for="txtNombre">Nombre</label>
+            <input type="text" id="txtNombre" name="Nombre">
+            <label for="txtCelular">Nombre</label>
+            <input type="text" id="txtCelular" name="Nombre">
+
+            <input list="selectCiudad" name="ciudad">
+            <datalist>
+                <option value="bgta">Bogota</option>
+                <option value="mdll">Medellin</option>
+                <option value="cal">Cali</option>
+            </datalist>
+
+            <label for="selectPizza">pizza</label>
+            <select name="pizza" id="selectPizza">
+                <option value="pep">Pepperoni</option>
+                <option value="Hwi">Hawaiiana</option>
+                <option value="pol">Pollo</option>
+
+            </select>
+            <strong>Seleccione Una Pizza</strong>
+            <div>
+                <label for="Helado"></label>
+                <input type="radio" name="postre" value="helado" id="Helado">
+                <label for="Arequipe"></label>
+                <input type="radio" name="postre" value="arequipe" id="Arequipe">
+                <label for="Rolls"></label>
+                <input type="radio" name="postre" value="rolls" id="Rolls">
+            </div>
+            <strong>Adicionales</strong>
+            <div class="horizontal">
+                <input type="checkbox" name="servilletas" id="checkBoxServilletas">
+                <label for="checkBoxServilletas">Servilletas</label>
+                <input type="checkbox" name="cubiertos" id="checkBoxCubiertos">
+                <label for="checkBoxCubiertos">Servilletas</label>
+            </div>
+            <label for="txtComentarios">Comentarios</label>
+            <textarea name="infoGeneral" id="txtComentarios" cols="30" rows="5"></textarea>
+
+
+            <button type="submit">Enviar Pedido</button>
+        </fieldset>
+
+    </form>
+</body>
+
+</html>
