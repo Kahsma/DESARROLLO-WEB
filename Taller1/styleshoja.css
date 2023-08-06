@@ -26,7 +26,7 @@ body {
 
 }
 
-ul {
+#labarra {
     /* padding-bottom: 10px; */
     /* padding-top: 10px; */
     margin: 0;
@@ -42,7 +42,7 @@ ul {
 
 }
 
-li a {
+.barra a {
 
 
     text-align: center;
@@ -75,7 +75,7 @@ header {
 
 }
 
-ul.nav {
+#labarra.nav {
     display: inline-block;
 
 }
@@ -90,62 +90,42 @@ ul.nav {
 
 
 
-.table-container {
-    display: flex;
-    justify-content: center;
-}
-
-table {
-    border-collapse: collapse;
+h1 {
     text-align: center;
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 600px;
-    /* Establece un ancho máximo para la tabla */
-    width: 100%;
-    /* Asegura que la tabla ocupe todo el ancho disponible hasta el máximo */
-    margin: 0 auto;
-    /* Centra la tabla horizontalmente */
-
-
-
 }
 
-th,
-td {
+h2 {
+    margin-top: 40px;
+    text-align: center;
+}
+
+section {
+    border: 1px solid #0D0D0D;
+    background: linear-gradient(to bottom, #EEF26D, #F2EA7E);
     padding: 10px;
-    border: 1px solid #000;
+    margin-bottom: 20px;
 }
 
-td img {
-    max-width: 50%;
-    height: auto;
-
-    display: block;
-    margin: 0 auto;
+h3 {
+    margin: 0;
 }
 
-th {
-    background-color: dodgerblue;
-    color: aliceblue;
-    font-weight: bold;
+.lista-no-numerada {
+
+    padding-left: 20px;
 }
 
-.header {
 
-    background-color: dodgerblue;
-    color: aliceblue;
-    font-weight: bold;
 
+.lista-numerada li {
+    position: relative;
+    padding-left: 30px;
 }
 
-.par {
-    background-color: cornsilk;
-    color: #0D0D0D;
-}
 
-.impar {
-    background-color: greenyellow;
+
+/* Estilo para el marcador de la lista no numerada */
+.lista-no-numerada li {
+    position: relative;
+    padding-left: 20px;
 }
