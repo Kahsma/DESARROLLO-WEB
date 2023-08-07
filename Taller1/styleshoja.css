@@ -125,22 +125,21 @@ h3 {
 
 
 
-/* Estilo para el marcador de la lista no numerada */
+
 .lista-no-numerada li {
     position: relative;
     padding-left: 20px;
 }
 
-/* Estilo para el marcador de la lista numerada */
+
 .lista-numerada li::marker {
     color: blue;
-    /* Puedes cambiar el color a tu preferencia */
+
 }
 
-/* Estilo para el marcador de la lista no numerada */
 .lista-no-numerada li::marker {
     color: red;
-    /* Puedes cambiar el color a tu preferencia */
+
 }
 
 .indice {

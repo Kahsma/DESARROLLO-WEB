@@ -18,7 +18,7 @@ function addFriend() {
         }
 
         updateTable();
-        //document.getElementById('friendForm').reset(); // <= comentar para hacer las pruebas. 
+        document.getElementById('friendForm').reset(); // <= comentar para hacer las pruebas. 
     } else {
         alert('Por favor, complete todos los campos y asegúrese de que el username incluya al menos un "."');
     }
@@ -42,7 +42,7 @@ function updateTable() {
             friendRow.innerHTML = `
                 <td>${username}</td>
                 <td>${name}</td>
-                <td>${imageURL}</td>
+                <td> <a href="${imageURL}">Imagen</a></td>
                 <td><button onclick="showPets('${username}', '${pets.join(', ')}')">Ver Mascotas</button></td>
             `;
             friendTable.appendChild(friendRow);

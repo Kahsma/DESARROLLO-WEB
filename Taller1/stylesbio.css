@@ -104,11 +104,9 @@ table {
     justify-content: center;
     align-items: center;
     max-width: 600px;
-    /* Establece un ancho máximo para la tabla */
     width: 100%;
-    /* Asegura que la tabla ocupe todo el ancho disponible hasta el máximo */
     margin: 0 auto;
-    /* Centra la tabla horizontalmente */
+
 
 
 
