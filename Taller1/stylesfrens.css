@@ -1,11 +1,18 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Source Code Pro', monospace;
+
+
     background-color: #F2EA7E;
 
 }
 
+body:not.barra {
+    margin-left: 15px;
+
+
+}
 
 .barra {
     float: left;
@@ -84,5 +91,54 @@ ul.nav {
     background-color: #A3A64B;
     color: cornsilk;
 
+
+}
+
+
+.form-field {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.form-field label {
+    width: 150px;
+    margin-right: 10px;
+}
+
+.form-field input {
+    flex: 1;
+    max-width: 300px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #A3A64B;
+}
+
+tr {
+    background-color: #EBC838;
+
+}
+
+
+button {
+    margin-bottom: 15px;
+}
+
+.content-container {
+    margin-left: 10px;
+    margin-right: 10px;
 
 }

@@ -172,3 +172,7 @@ section {
     clear: both;
     /* This ensures the video starts below the floated image */
 }
+
+h2 {
+    margin-left: 10px;
+}
