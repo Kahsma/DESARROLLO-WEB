@@ -5,19 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Frens</title>
-    <script src="script.js"></script>
+
     <link rel="stylesheet" href="stylesfrens.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,600;0,700;1,700&family=Source+Code+Pro:wght@300;700&display=swap"
+        rel="stylesheet">
+
     <script src="script.js"></script>
 </head>
 
 <body>
 
     <header class="navegacion">
-
-
         <ul>
             <li class="barra"> <a href="inicio.html">Bienvenida</a> </li>
             <li class="barra"> <a href="biografia.html">Datos Biograficos</a> </li>
@@ -25,44 +26,42 @@
             <li class="barra"> <a href="interes.html">Intereses</a> </li>
             <li class="barra seleccionada"> <a href="">Amigos</a> </li>
         </ul>
-
-
-
     </header>
 
+    <div class="content-container">
 
 
-    <h1 class="titulo">Registro de Amigos</h1>
+        <h1 class="titulo">Registro de Amigos</h1>
 
-    <h1>Registro de Amigos</h1>
+        <form id="friendForm">
+            <div class="form-field">
+                <label for="username">Username:</label>
+                <input type="text" id="username" required>
+            </div>
+            <div class="form-field">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" required>
+            </div>
+            <div class="form-field">
+                <label for="imageURL">URL de la imagen:</label>
+                <input type="text" id="imageURL" required>
+            </div>
+            <div class="form-field">
+                <label for="pets">Mascotas (separadas por comas):</label>
+                <input type="text" id="pets" required>
+            </div>
+            <button type="button" onclick="addFriend()">Agregar Amigo</button>
+        </form>
 
-    <form id="friendForm">
-        <label for="username">Username:</label>
-        <input type="text" id="username" required>
-        <br>
-        <label for="name">Nombre:</label>
-        <input type="text" id="name" required>
-        <br>
-        <label for="imageURL">URL de la imagen:</label>
-        <input type="text" id="imageURL" required>
-        <br>
-        <label for="pets">Mascotas (separadas por comas):</label>
-        <input type="text" id="pets" required>
-        <br>
-        <button type="button" onclick="addFriend()">Agregar Amigo</button>
-    </form>
-
-    <table id="friendTable">
-        <tr>
-            <th>Username</th>
-            <th>Nombre</th>
-            <th>URL de la imagen</th>
-            <th>Mascotas</th>
-            <th>Ver Mascotas</th>
-        </tr>
-    </table>
-
-
+        <table id="friendTable">
+            <tr>
+                <th>Username</th>
+                <th>Nombre</th>
+                <th>URL de la imagen</th>
+                <th>Ver Mascotas</th>
+            </tr>
+        </table>
+    </div>
 
 
 </body>
